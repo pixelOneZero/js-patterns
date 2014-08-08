@@ -1,7 +1,7 @@
-/* The Bicycle interface. */
+/* The Cake interface. */
 var Cake = new Interface('Cake', ['bake', 'assemble', 'frost', 'box']);
-/* Speedster class. */
-var RedVelvet = function() { // implements Bicycle
+/* Cake class. */
+var RedVelvet = function() { // implements Cake
 
 };
 RedVelvet.prototype = {
