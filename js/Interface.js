@@ -19,7 +19,7 @@ var Interface = function(name, methods) {
 
 // Static class method.
 Interface.ensureImplements = function(object) {
-
+  
   if (arguments.length < 2) {
     throw new Error("Function Interface.ensureImplements expects 2 or more arguments.");
   }
